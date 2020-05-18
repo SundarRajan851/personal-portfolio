@@ -1,0 +1,89 @@
+body{
+    min-width: 1024px;
+    background: url(../img/bg.jpg) top right;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+a{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: gray;
+    padding-right: 20px;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover, .active{
+    color: white;
+    border-bottom: 2px solid #18d26e;
+    padding-bottom: 6px;    
+}
+.container{
+    padding-top: 230px;
+    width: 1118px;
+    margin: auto;
+}
+.header span{
+    color: #fff;
+    border-bottom: 2px solid #18d26e;
+    padding-bottom: 6px;
+}
+.header h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.header p{
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 20px;
+}
+.heading{
+    display: flex;
+    width: 1118px;
+    margin: auto;
+}
+.head1,.head2{
+    flex-basis: 50%;
+    padding-top: 20px;
+}
+.head1 h2{
+    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+}
+.aboutme{
+    background-color: black transparent;
+}
+.contact-body{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 1118px;
+    margin: auto;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.contact-body h2{
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.set1, .set2{
+    display: flex;
+    padding: 20px 20px;
+
+}
+.set11, .set12, .set21, .set22{
+    flex-basis: 50%;
+    background-color: rgba(128, 128, 128, 0.5);
+    height: 80px;
+    padding-left: 20px;
+} 
+.set11, .set21{
+    border-right-width: 150px;
+    border-right:solid rgba(0, 0, 0, 0.8); 
+}
+.set12, .set22{
+    border-left-width: 150px;
+    border-left:solid rgba(0, 0, 0, 0.8); 
+}
