@@ -124,6 +124,29 @@ h4{
     font-weight: 600;
     color: #fff;
 }
+.about4{
+    display: flex;
+    margin: 20px;
+}
+.about4-1, .about4-2{
+    flex-basis: 50%;
+}
+.skill h5{
+    font-size: 15px;
+    padding: 10px 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+.skills .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: .9s;
+    background-color: #18d26e;
+}
 .contact-body{
     background-color: rgba(0, 0, 0, 0.8);
     width: 1118px;
@@ -151,6 +174,10 @@ h2{
     margin-left: 20px;
     text-align: center;
 } 
+.contact-set1 h5{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
 .contact-set2{
     padding: 20px;
     margin-left: 20px;
@@ -189,19 +216,24 @@ h2{
     border: none;
     color: white;
 }
-.service-set{
+.service-set, .portfolio2, .resume2{
     background-color: rgba(0, 0, 0, 0.8);
     width: 1118px;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 20px ;
     margin-top: 20px;
+    padding-bottom: 40px;
+}
+.service-set h4{
+    padding: 60px 0;
+    color: white;
 }
 .service-set1, .service-set2{
     display: flex;
 }
 .service1, .service2, .service3, .service4, .service5, .service6{
     flex-basis: 33%;
-    background-color: rgba(128, 128, 128, 0.5);
+    background-color: rgba(128, 128, 128, 0.2);
     padding: 20px 20px;
     border-left-width: 50px;
     border-left-width: 50px;
@@ -210,6 +242,7 @@ h2{
     width: 300px;
     margin-left: 20px;
     text-align: center;
+    border: none;
 }
 .service1:hover, .service2:hover, .service3:hover, .service4:hover, .service5:hover, .service6:hover{
     background-color: #18d26e;
@@ -224,4 +257,35 @@ h3::after{
     display: inline-block;
     background: #4ceb95;
     margin: 4px 10px;
+}
+.port-buttons{
+    margin-left: 400px;
+    padding-bottom: 20px;
+}
+.port-buttons button:hover, #active2{
+    background-color: #18d26e;
+}
+.port-buttons button{
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 16px 10px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0 3px 10px 3px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 4px;
+}
+.portfolio2 table tr td img{
+    width: 350px;
+    padding: 10px;
+    background-color: black;
+}
+.portfolio2 table{
+    margin-left: 20px;
 }
