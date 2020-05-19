@@ -131,6 +131,29 @@ h4{
 .about4-1, .about4-2{
     flex-basis: 50%;
 }
+.about5 table{
+    width: 100%;
+
+}
+.about5 table tr td{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px 0;
+    text-align: center;
+    border:solid rgba(0, 0, 0, 0.8);
+    border-width: 20px;
+    margin: 10px;
+    height: 25px;
+}
+.about6{
+    display: flex;
+    margin-left: 20px;
+}
+.about6-1, .about6-2, .about6-3{
+    flex-basis: 33%;
+    background-color: rgba(128, 128, 128, 0.2);
+    padding: 10px;
+    border: solid rgba(0, 0, 0, 0.5);
+}
 .skill h5{
     font-size: 15px;
     padding: 10px 0;
@@ -146,6 +169,10 @@ h4{
     height: 10px;
     transition: .9s;
     background-color: #18d26e;
+}
+.apout4-2 p{
+    margin-left: 100px;
+    color: #18d26e;
 }
 .contact-body{
     background-color: rgba(0, 0, 0, 0.8);
