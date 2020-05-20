@@ -316,3 +316,59 @@ h3::after{
 .portfolio2 table{
     margin-left: 20px;
 }
+.resume3{
+    display: flex;
+    margin: 20px 20px;
+    font-family: "Open Sans", sans-serif;
+}
+.resume3 h4{
+    font-size: 20px;
+}
+.resume3-1, .resume3-2{
+    flex-basis: 50%;
+}
+.resume3 h4{
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.resume3 h5{
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #18d26e;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.resume3-1-1, .resume3-1-2{
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid white;
+    position: relative;
+}
+.resume3 p{
+    margin: 20px;
+    font-size: 16px;
+    font-style: italic;
+}
+.resume3 li{
+    margin-left: 40px;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.resume3 button{
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    background-color: solid gray;
+    border: none;
+    color: white;
+}
